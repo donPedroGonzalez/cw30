@@ -173,7 +173,7 @@ function onPageLoad()
                 for (var j = 0; j < answers.length; j++)
                 {
                     if (j > 0){
-                        correctAnswer = correctAnswer + " or ";
+                        correctAnswer = correctAnswer + " ou ";
                     }
                     correctAnswer = correctAnswer + "« " + answers[j] + " »";
                 }
